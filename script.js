@@ -111,15 +111,68 @@
 
 
 //  function 
+
 //1 task 
 
+// function sum(...n) {
+//     let x=0; 
+//     for (let item of n) {
+//         if (item>0) {x+=item 
+//         }
+//     }
+//     return x
+// }
+
+// let result =sum (2, -9, 5, 11, -30, 100, -8, -11, -4, 5, -6, 8)
+// console.log(result);
+
+// 2 task
+
+// function sum(...array) {
+// let y=0
+
+// for (let numbers of array) {
+//     y+=numbers;
+// }
+// return y
+// }
+
+// let result =sum (10, 50, 6, 7, 8, 11, 6, 3, 9)
+// console.log(result);
 
 //3 task
 
 // let user = {
 //     firstname: 'giorgi',
-//     lastname: 'saakadze',
+//     lastname: ' saakadze',
 //     age: 32,
 //     isloggedin: true
 //   }
-  
+
+//   function account() {
+    
+//         if (user.isloggedin===true) {
+//             console.log(user.firstname+user.lastname);
+//         }
+//         else{
+//             console.log('false');
+//         }
+//     }
+//   account();
+
+
+//   4 task
+
+// function numbers(array) {
+// let max = array[0];
+// for (let i = 0; i < array.length; i++) {
+//     if (array[i]>max) {
+//         max=array[i]
+//     }
+// }
+// return max
+// }
+
+// let x =[102, -80, 3456, 7, 8, 11, 6, 3, 9]
+// let result =numbers(x)
+// console.log(result);
